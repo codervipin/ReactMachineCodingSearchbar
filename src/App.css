@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+}
+h1{
+  width: max-content;
+  margin: 1.5em auto;
+}
+
+input{
+  width: 60%;
+  padding: 0.5em;
+  display: block;
+  margin: 1em auto ;
+  border-radius: 8px;
+  border: 1px solid transparent;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  color: #fff;
+  transition: border-color 0.25s;
+}
+
+.container{
+  width: 60%;
+  max-height: 500px;
+  overflow-y: scroll;
+  border: solid 1px #fff;
+  margin: auto;
+  border-radius: .5em;
+}
+span{
+  display: block;
+  padding: .5em;
+
+}
+span:hover{
+  background-color: #1a1a1a;
+  color: #fff;
+  cursor: pointer;
+}
